@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           display: flex;
+        }
+
+        .common{
+            width: 100px;
+            height: 100px;
+        }
+
+        .red{
+            background-color: red;
+        }
+
+        .yellow{
+            background-color: yellow; 
+        }
+        
+        .green{
+            background-color: green; 
+        }
+
+        .clear{
+            height: 30px;
+            width: 100px;
+            margin: 20px 100px;
+            background-color: black;
+            color: whitesmoke;
+        }
+
+        .clear:hover{
+            color: black;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h2 id="title">Hello world</h2> -->
+    <div class="container">
+        <button class="red common" id="red" value="red">
+
+        </button>
+        <button class="yellow common" id="yellow" value="yellow">
+
+        </button>
+        <button class="green common" id="green" value="green">
+
+        </button>
+    </div>
+
+    <button class="clear" id="clear-game">Clear Game</button>
+    <script src="dom.js"></script>
+</body>
+</html>
